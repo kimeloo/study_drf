@@ -2,8 +2,9 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,visualstudiocode,python,django
 
 ### Custom ###
-migrations/*
-!migrations/__init__.py
+!**/migrations/
+**/migrations/*
+!**/migrations/__init__.py
 
 ### Django ###
 *.log
